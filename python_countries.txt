@@ -1,0 +1,7 @@
+countries=["kenya","uganda","tanzania"]
+age=int(input("enter your age:"))
+country=input("enter your country").lower()
+if(country not in "countries")and(age<18):
+        print("not eligible to vote.")
+else:
+    print("eligible to vote.")
